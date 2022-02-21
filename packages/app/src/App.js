@@ -61,6 +61,7 @@ const App = () => {
       })
       .catch(console.log);
   }, [locale]);
+
   return (
     <I18nProvider i18n={i18n}>
       <I18nWatchLocaleProvider>
